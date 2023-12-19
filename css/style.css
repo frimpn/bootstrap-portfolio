@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: salmon;
+}
+
+
 .about {
 
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/bookcases\ 2.png");
@@ -15,4 +20,11 @@
 .about p{
     width: 100%;
     text-align: center;
+}
+
+section h2{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
 }
