@@ -7,7 +7,7 @@ body{
 }
 
 
-.about {
+.jumbo {
 
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/bookcases\ 2.png");
     background-repeat: no-repeat;
@@ -17,10 +17,12 @@ body{
     text-align: center;
 }
 
-.about p{
+.jumbo p, .about p{
     width: 100%;
     text-align: center;
+    color: white;
 }
+
 
 section > h2{
     font-size: 48px;
@@ -28,4 +30,27 @@ section > h2{
     margin-bottom: 30px;
     color: white;
     margin-top: 10px;
+}
+
+
+.about P{
+    font-size: 30px;
+}
+.contact{
+    margin-left: 50px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.contact ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact ul li{
+    color: aliceblue;
+    font-size: 18px;
+    list-style: none;
+    margin: 50px 20px;
+    cursor: pointer;
 }
