@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -19,19 +20,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#about">About</a>
+            <a class="nav-link" aria-current="page" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#work">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skill">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About me</a>
+            <a class="nav-link" href="#about">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
           
         </ul>
@@ -48,7 +49,7 @@
     </div>
   </div>
 
-  <section class="work">
+  <section class="work" id="work">
     <h2>Work</h2>
     <div class="container-fluid">
       <div class="row">
@@ -156,7 +157,7 @@
   </section>
 
 
-  <section class="skills"> 
+  <section class="skills" id="skill"> 
     <h2>Skills</h2>
     <div class="accordion" id="accordionExample">
       <div class="accordion-item">
@@ -233,11 +234,11 @@
   </section>
 
 
-  <section class="about">
+  <section class="about" id="about">
 
     <h2>About Me</h2>
       <p>My name is Nana Amankwah and i am an upcoming front-end developer, based out of london and whoose constantly trying to improve his coding skills and break into the industry. Outside of coding my hobbies include reading novels, watching movies and playing basketball and football.</p>
-      <section class="contact">
+      <section class="contact" id="contact">
         <h2>Contact <br> Me:</h2>
       <ul>
         <li>Phone Number: <br> xxx xxx</li>
@@ -250,6 +251,25 @@
   </section>
 
 
+<footer>
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="#" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <i class="fa-solid fa-user-tie"></i>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">&copy; Nana, Portfolio</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary link" href="#contact"><i class="fa-brands fa-twitter"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary link" href="#contact"><i class="fa-brands fa-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary link" href="#contact"><i class="fa-brands fa-facebook"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+</footer>
+<script src="https://kit.fontawesome.com/efbc18a107.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
